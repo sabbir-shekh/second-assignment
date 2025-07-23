@@ -37,3 +37,26 @@
 .nav-items ul .home a{
     color: #252432;
 }
+
+
+/* Navber-responsive */
+@media screen and (max-width: 576px) {
+   .navber ul a{
+        display: none;
+        
+    }
+     .navber .logo img{
+        width: 63px;
+        height: 38px;
+    }
+    .navber ul{
+        font-size: 1.25rem;
+    }
+
+   .navber{
+    width: 361px;
+margin-left: 15px;
+padding-top: 20px;
+align-items: center;
+   }
+}

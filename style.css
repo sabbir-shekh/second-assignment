@@ -425,3 +425,64 @@ width: 330px;
     padding-top: 10px;
 }
 }
+
+/* inputber */
+.inputber{
+
+    background-image: url(./media/news-letter-bg.png);
+    width: 100%;
+  margin: 0 auto;
+    height: 533px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+     
+}
+
+.forom h1{
+font-size: 3.12rem;
+color: white;
+}
+.forom input{
+    
+    width: 644px;
+    height: 40px;
+    font-size: 16px;
+}
+input::placeholder{
+    color: #E95A08;
+    padding-left: 30px;
+}
+.forom{
+gap: 0px;
+padding-top: 150px;
+}
+
+/* Forom Responsiv */
+@media screen and (max-width: 568px) {
+  .inputber{
+    width: 380px;
+    height: 275px;
+  }  
+
+  .forom input{
+width: 218px;
+height: 40px;
+  }
+
+  .forom h1{
+font-size: 1.3rem;
+width: 235px;
+margin-left: 50px;
+
+  }
+  .in-bu{
+    width: 103px;
+  }
+
+.forom{
+  padding: 0px;
+  padding-top: 100px;
+  }
+}

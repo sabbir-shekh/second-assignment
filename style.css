@@ -40,7 +40,7 @@
 
 
 /* Navber-responsive */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 568px) {
    .navber ul a{
         display: none;
         
@@ -49,14 +49,67 @@
         width: 63px;
         height: 38px;
     }
-    .navber ul{
-        font-size: 1.25rem;
-    }
+    
 
    .navber{
     width: 361px;
 margin-left: 15px;
 padding-top: 20px;
 align-items: center;
+
    }
+
+.nav-items ul{
+    gap: 0px;
+    margin-right: 60px;
+    font-size: 1.25rem;
+}
+}
+
+/* Banner section */
+.Banner{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 150px;
+}
+.contain h1{
+font-size: 3rem;
+}
+
+.contain p{
+    font-size: 1.3rem;
+    color: #8987A1;
+}
+.primary-color{
+    color: #E95A08;
+}
+.photo img{
+    width: 570px;
+    height: 355px;
+}
+
+/* banner responsive */
+
+@media screen and (max-width: 576px){
+    .Banner{
+        flex-direction: column-reverse;
+        
+    }
+.photo img{
+    width: 393.18px;
+    height: 245px;   
+}
+.contain h1{
+   font-size: 1.5rem;
+   width: 191px;
+}
+.contain{
+    width: 361px;
+    height: 147px;
+}
+.contain p{
+    font-size: 0.875rem;
+}
 }

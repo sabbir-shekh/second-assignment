@@ -125,6 +125,8 @@ font-size: 3rem;
 .plants-para{
     font-size: 1.5rem;
     color: rgba(0, 0, 0, 0.5);  
+    width: 800px;
+    margin-left: 100px;
 }
 /* our plants responsiv */
 @media screen and (max-width: 568px) {
@@ -146,4 +148,59 @@ font-size: 3rem;
     width: 320px;
     margin-left: 30px; 
 }
+}
+
+/* card section */
+
+ .card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+     text-align: center;
+     justify-content: center;
+    justify-content: center;
+    gap: 20px;
+    
+    margin: 0 150px;
+    
+padding-top: 40px; */
+
+}
+
+button{
+    font-size: 1rem;
+    color: white;
+    background-color: #E95A08;
+    border: none;
+   width: 270px;
+   height: 50px;
+   margin-top: -15px;
+}
+.card-1 h3{
+   font-size: 1rem;
+}
+.card-1 h2{
+font-size: 1.5rem;
+font-weight: bold;
+margin-top: -10px;
+} 
+
+/* card responsiv */
+ @media screen and (max-width: 568px) { 
+.card{
+    grid-template-columns: repeat(2, 1fr);
+    width: 170px;
+    margin: 0 auto;
+    gap: 10px;
+    row-gap: 30px;
+  
+}
+.card-1 img{
+    width: 170px;
+}
+.card-1{
+        width: 170px;     
+    }
+    button{
+        width: 170px; } 
+
 }

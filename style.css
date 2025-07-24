@@ -281,3 +281,36 @@ left: 350px;
     margin-left: -10px;
   }
 }
+
+/* Latest-Deals */
+.Latest-Deals{
+    text-align: center;
+}
+.Latest-Deals p{
+    margin: 0 276px;
+    font-size: 1.3rem;
+    color:rgba(0, 0, 0, 0.5);
+    margin-top: -30px;
+}
+
+.Latest-Deals h2{
+    font-size: 3.12rem;
+}
+/* Latest-Deals responsive */
+@media screen and (max-width: 568px) {
+    .Latest-Deals h2{
+        font-size: 1.5rem;
+    }
+
+    .Latest-Deals p{
+        font-size: 0.875rem;
+        width: 280px;
+        height: 68px;
+    margin: 0 auto;
+        
+    }
+.Latest-Deals{
+    margin-top: 130px;
+    width: 393px;
+}
+}

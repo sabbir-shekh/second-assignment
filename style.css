@@ -284,7 +284,7 @@ left: 350px;
 
 /* Latest-Deals */
 .Latest-Deals{
-    text-align: center;
+    text-align: center;margin-top: -150px;
 }
 .Latest-Deals p{
     margin: 0 276px;
@@ -312,5 +312,116 @@ left: 350px;
 .Latest-Deals{
     margin-top: 130px;
     width: 393px;
+}
+}
+
+/* 25% Off | Zabo Plant */
+
+/* 25% Off | Zabo Plant */
+
+.shap{
+    display: flex;
+    gap: 28px;
+    margin: 0 150px;
+margin-top: 120px;    
+}
+.left-column{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+   
+}
+
+.watch{
+    position: relative;
+    color: white;
+    border-radius: 10px;
+ background-size: cover;
+ background-position: center;
+ padding: 20px;
+ 
+}
+
+.bloom{
+ width: 367px;
+  height: 201px;
+}
+
+.ana{
+    width: 367px;
+    height: 150px;
+}
+
+
+
+
+.zabo {
+ width: 753px;
+  height: 423px;
+  background-image: url(./media/deal-zabo.png);
+}
+
+.bloom {
+  background-image: url(./media/deal-bloom.png);
+  
+}
+.ana {
+  background-image: url(./media/deal-ana.png);
+    
+}
+
+.text{
+    font-size: 1.3rem;
+
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.text p{
+    margin-top: -25px;
+    text-decoration: underline;
+}
+
+.text-zabo{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.text-zabo p{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 568px) {
+    .shap{
+        flex-direction: column;
+          padding: 0px;
+          width: 330px;
+    margin: 0 auto;
+        height: 581px;
+        margin: 0 auto;
+        margin-left: 10px;
+        margin-top: 20px;
+        
+    }
+
+    .zabo{
+        width: 330px;
+        height: 172px;
+    }
+    .bloom{
+width: 330px;
+        height: 184px;
+    }
+
+    .ana{
+        width: 330px;
+        height: 184px;
+    }
+    .text-zabo{
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 10px;
 }
 }

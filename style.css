@@ -108,9 +108,12 @@ font-size: 3rem;
 .contain{
     width: 361px;
     height: 147px;
+    padding-left: 50px;
 }
 .contain p{
     font-size: 0.875rem;
+    width: 340px;
+    
 }
 }
 
@@ -203,4 +206,78 @@ margin-top: -10px;
     button{
         width: 170px; } 
 
+}
+
+
+/* trusted-section */
+.trusted-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 150px;
+    margin-top: 210px;
+}
+.trusted-seller{
+    width: 286px;
+height: 286px;
+z-index: 10;
+position: relative;
+bottom: 750px;
+left: 350px;
+
+
+}
+.store{
+    width: 540px;
+    height: 590px;
+}
+.plant-lover{
+    width: 540px;
+    height: 520px;
+}
+
+.plant-lover h2{
+    font-size: 3.12rem;
+    width: 350px;
+  
+}
+.plant-lover ul{
+    font-size: 1.3rem;
+    gap: 10px;
+  
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+.plant-lover li{
+ padding-bottom: 15px;
+}
+
+/* trusted-section responsiv*/
+@media screen and (max-width: 568px) {
+  .trusted-section{
+    flex-direction: column;
+    margin: 0 auto;
+    margin-left: 20px;
+    padding-top: 40px;
+  }  
+  .trusted-seller{
+    display: none;
+  }
+
+  .store{
+    width: 358px;
+    height: 395px;
+  }
+  .plant-lover{
+    width: 360px;
+    height: 234px;
+  }
+
+  .plant-lover h2{
+    font-size: 1.5rem;
+  }
+  .plant-lover ul{
+    font-size: 0.875rem;
+    margin: 0 15px;
+    margin-left: -10px;
+  }
 }

@@ -101,7 +101,8 @@ font-size: 3rem;
         
     }
 .photo img{
-    width: 393.18px;
+    size: c;
+    max-width: 412px;
     height: 245px;   
 }
 .contain h1{

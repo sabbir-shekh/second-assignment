@@ -1,4 +1,7 @@
+body {
 
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
 
 /* font-family */
 .inter-2nd-font {
@@ -177,6 +180,7 @@ button{
    width: 270px;
    height: 50px;
    margin-top: -15px;
+   cursor: pointer;
 }
 .card-1 h3{
    font-size: 1rem;
@@ -223,8 +227,17 @@ z-index: 10;
 position: relative;
 bottom: 750px;
 left: 350px;
+filter: drop-shadow(2px 5px 1px #4444);
+animation: spin 7s linear infinite;
+}
 
-
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 .store{
     width: 540px;
@@ -243,6 +256,7 @@ left: 350px;
 .plant-lover ul{
     font-size: 1.3rem;
     gap: 10px;
+    font-size: 1rem;
   
     
     color: rgba(0, 0, 0, 0.5);
@@ -315,7 +329,7 @@ left: 350px;
 }
 }
 
-/* 25% Off | Zabo Plant */
+
 
 /* 25% Off | Zabo Plant */
 
@@ -358,16 +372,20 @@ margin-top: 120px;
 .zabo {
  width: 753px;
   height: 423px;
-  background-image: url(./media/deal-zabo.png);
-}
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./media/deal-zabo.png);
+  /* background-image: url(./media/deal-zabo.png);
+  filter: brightness(50%);*/
+} 
 
 .bloom {
-  background-image: url(./media/deal-bloom.png);
-  
+  /* background-image: url(./media/deal-bloom.png);
+  filter: brightness(50%); */
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./media/deal-bloom.png);
 }
 .ana {
-  background-image: url(./media/deal-ana.png);
-    
+  /* background-image: url(./media/deal-ana.png);
+    background: linear-gradient(); */
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./media/deal-ana.png);
 }
 
 .text{
@@ -393,6 +411,7 @@ margin-top: 120px;
     text-decoration: underline;
 }
 
+/* 25% Off | Zabo Plant */
 @media screen and (max-width: 568px) {
     .shap{
         flex-direction: column;
@@ -430,6 +449,7 @@ width: 330px;
 .inputber{
 
     background-image: url(./media/news-letter-bg.png);
+    background-size: cover;
     width: 100%;
   margin: 0 auto;
     height: 533px;
@@ -458,10 +478,15 @@ input::placeholder{
 gap: 0px;
 padding-top: 150px;
 }
+ .in-bu{
+    
+    height: 45px;
+  }
 
 /* Forom Responsiv */
 @media screen and (max-width: 568px) {
   .inputber{
+   background-size: cover;
     width: 380px;
     height: 275px;
   }  
@@ -472,13 +497,14 @@ height: 40px;
   }
 
   .forom h1{
-font-size: 1.3rem;
+font-size: 1.2rem;
 width: 235px;
 margin-left: 50px;
 
   }
   .in-bu{
     width: 103px;
+    height: 45px;
   }
 
 .forom{
